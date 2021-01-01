@@ -2,7 +2,8 @@
 #User gets 4 chances to guess the number.
 #random module is used to generate random number.
 
-import random, time
+import random
+import time
 print("Welcome to number guessing game !!!")
 time.sleep(2)
 
@@ -34,5 +35,3 @@ while count != 0:
 
     #decrease the counter after each guess
     count -= 1
-
-
