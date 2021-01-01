@@ -29,7 +29,3 @@ print("The inspector found the meat-" , "\u0332".join(random.choice(plural)) , "
 print("In response, he threw up all over his " , "\u0332".join(random.choice(plural)) , ".")
 print("In his report, the inspector " + "\u0332".join(adverb) + " recommended that the school cafeteria serve only nutritious " , "\u0332".join(random.choice(plural)) , " as well as low-calorie " , random.choice(plural) , " and that all of the saturated " , random.choice(plural) , " be eliminated.")
 print("He rated the cafeteria a " + "\u0332".join(letter) + "-minus.")
-
-
-
-
