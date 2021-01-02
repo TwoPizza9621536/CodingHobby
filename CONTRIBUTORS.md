@@ -8,6 +8,8 @@ The people who help others to learn and keep this repository going.
 
 ## Maintainers
 
+Vardaan Raj Singh  Maintainer
+
 ## Contributors
 
 Add yourself in this format:
