@@ -41,6 +41,7 @@ Read [CONTRIBUTORS.md](CONTRIBUTORS.md), the top main or original collaborators 
 Read the project's README for the packages used. Usually in the description or Dependencies section.
 
 ### Maintainers
+Utkarsh Agarwal Maintainer
 
 Vardaan Raj Singh Maintainer
 
