@@ -5,10 +5,11 @@ Assembly projects for DOS and Windows using NASM and MASM assemblers
 
 ## PROJECTS
 
--	DOS
+-  DOS
 
-	- Hello World
-- Windows
+  - Hello World
+
+-  Windows
 
   - Hello World
 
