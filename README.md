@@ -42,6 +42,8 @@ Read the project's README for the packages used. Usually in the description or D
 
 ### Maintainers
 
+Vardaan Raj Singh Maintainer
+
 ## License
 
 License is under the MIT License - see the [LICENSE](LICENSE) for details.
