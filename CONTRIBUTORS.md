@@ -12,6 +12,8 @@ The people who help others to learn and keep this repository going.
 
 - Vardaan Raj Singh Maintainer
 
+- Eric J EricJB77@gmail.com Maintainer
+
 ## Contributors
 
 Add yourself in this format:
