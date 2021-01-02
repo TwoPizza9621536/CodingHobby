@@ -5,6 +5,7 @@ The people who help others to learn and keep this repository going.
 ## Original Repository Creators and Collaborators
 
 - Sam W twopizza9621536@gmail.com Original Creator
+- Utkarsh Agarwal agarwalutkarsh554@gmail.com contributor
 
 ## Maintainers
 - Utkarsh agarwal maintainer
