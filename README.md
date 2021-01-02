@@ -46,6 +46,8 @@ Read the project's README for the packages used. Usually in the description or D
 
 - [Vardaan Raj Singh](https://github.com/vardaan-raj)
 
+- [Eric J](https://github.com/EricJB77)
+
 ## License
 
 License is under the MIT License - see the [LICENSE](LICENSE) for details.
