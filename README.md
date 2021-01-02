@@ -41,9 +41,10 @@ Read [CONTRIBUTORS.md](CONTRIBUTORS.md), the top main or original collaborators 
 Read the project's README for the packages used. Usually in the description or Dependencies section.
 
 ### Maintainers
-Utkarsh Agarwal Maintainer
 
-Vardaan Raj Singh Maintainer
+- [Utkarsh Agarwal](https://github.com/agarwalutkarsh554)
+
+- [Vardaan Raj Singh](https://github.com/vardaan-raj)
 
 ## License
 
