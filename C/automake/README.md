@@ -1,7 +1,5 @@
 # automake
 
----
-
 These are my automake files for C.
 
 ## Projects

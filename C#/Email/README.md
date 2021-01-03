@@ -1,8 +1,11 @@
 # Email
 
----
-
 This is a SMTP application that sends an attachment out using [MailKit](https://github.com/jstedfast/MailKit) and [MineKit](https://github.com/jstedfast/MimeKit). This is a standalone application to send out emails if your printer application does not send a email out.
+
+## Dependencies
+
+- [MailKit](https://github.com/jstedfast/MailKit)
+- [MineKit](https://github.com/jstedfast/MimeKit)
 
 ## Building
 
@@ -22,7 +25,7 @@ Read the Contributing section in README.md at the root of the repository.
 
 ## License
 
-See LICENSE at the root of the repository. Additional licenses is in the project LICENSE.
+See [LICENSE](../../LICENSE) at the root of the repository. Additional licenses is in the project [LICENSE](./LICENSE).
 The first part of the project license is here if applicable.
 
 MailKit and MimeKit

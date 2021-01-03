@@ -1,7 +1,5 @@
 # Calculatortutorial
 
----
-
 MS Visual Studio C++ Tutorial in C for GCC/MingW. The code will work in VS2017 and later.
 
 ## Building

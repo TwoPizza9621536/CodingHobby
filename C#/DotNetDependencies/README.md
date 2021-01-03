@@ -1,7 +1,5 @@
 # DotNetDependencies
 
----
-
 MS DotNetDependencies tutorial. More at docs.microsoft.com/learn
 
 ## Usage
@@ -14,11 +12,11 @@ Use an editor to view the code. Use Visual Studio Code for a better experience. 
 
 ## Contributing
 
-Read the Contributing section in README.md at the root of the repository.
+Read the Contributing section in [README.md](../../README.md) at the root of the repository.
 
 ## License
 
-See LICENSE at the root of the repository. Additional licenses is in the project LICENSE.
+See [LICENSE](../../LICENSE) at the root of the repository. Additional licenses is in the project [LICENSE](./LICENSE).
 The first part of the project license is here if applicable.
 
 The MIT License (MIT)
