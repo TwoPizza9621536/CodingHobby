@@ -6,7 +6,13 @@ The people who help others to learn and keep this repository going.
 
 - Sam W twopizza9621536@gmail.com Original Creator
 
+
 ## Maintainers
+- Utkarsh Agarwal agarwalutkarsh554@gmail.com Maintainer
+
+- Vardaan Raj Singh Maintainer
+
+- Eric J EricJB77@gmail.com Maintainer
 
 ## Contributors
 
