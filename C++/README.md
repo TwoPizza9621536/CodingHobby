@@ -1,7 +1,7 @@
 # C++
 
-C++ projects for Visual Studio, GCC/MingW and cmake with [vcpkg](github.com/microsoft/vcpkg) and [Conan](conan.io). See the [CONTRIBUTING.md](../CONTRIBUTING.md) in the
-root of the repository for contributing.
+C++ projects for Visual Studio, GCC/MingW and cmake. See the [CONTRIBUTING.md](../CONTRIBUTING.md) in the
+in root of the repository for contributing.
 
 ## Projects
 

@@ -1,10 +1,9 @@
 # RepoOfTime
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/TwoPizza9621536/open-source-badges/)
-[![GitHub](https://img.shields.io/github/license/TwoPizza9621536/RepoOfTime?style=flat-square)](https://shields.io/category/license)
-[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TwoPizza9621536/RepoOfTime?style=flat-square)](https://shields.io/category/dependencies)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/TwoPizza9621536/RepoOfTime)](https://shields.io/category/dependencies)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 
 Random coding projects that I do sometimes over time.
 Trying things out or following docs.microsoft.com tutorials.
@@ -14,11 +13,11 @@ You can also add new projects by checking out a branch and pull a request.
 
 ## Table of Contents
 
-[Code of Conduct](#code-of-conduct)
-[Contributing](#contributing)
-[Authors and acknowledgment](#authors-and-acknowledgment)
-[Maintainers](#maintainers)
-[License](#license)
+- [Code of Conduct](#code-of-conduct)
+- [Contributing](#contributing)
+- [Authors and acknowledgment](#authors-and-acknowledgment)
+- [Maintainers](#maintainers)
+- [License](#license)
 
 ## Code of Conduct
 
@@ -37,11 +36,17 @@ for more info.
 
 ## Authors and Acknowledgment
 
-Read [CONTRIBUTORS.md](CONTRIBUTORS.md), the top main or original collaborators and maintainers will be here.
+Read [CONTRIBUTORS.md](CONTRIBUTORS.md), the top main or original collaborators will be here.
 
 Read the project's README for the packages used. Usually in the description or Dependencies section.
 
 ### Maintainers
+
+- [Utkarsh Agarwal](https://github.com/agarwalutkarsh554)
+
+- [Vardaan Raj Singh](https://github.com/vardaan-raj)
+
+- [Eric J](https://github.com/EricJB77)
 
 ## License
 

@@ -1,6 +1,6 @@
 # CSharp
 
-C# projects for DotNet and Visual Studio 2017 and 2019 in this sub-repository. See the [CONTRIBUTING.md](../CONTRIBUTING.md) in the root of the repository for contributing.
+C# projects for DotNet and Visual Studio 2017 and 2019 in this sub-repository. See the [CONTRIBUTING.md](../CONTRIBUTING.md) the in root of the repository for contributing.
 
 ## Projects
 
