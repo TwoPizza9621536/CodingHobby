@@ -19,5 +19,4 @@ Add yourself in this format:
 | Name | Language |       Project        |      Lines/Features     | Notes & Contributions | License |
 | ---- | -------- | ---------------------| ----------------------- | --------------------- | ------- |
 |Shruti|  Python  | Number Guessing game | generates random number |
-| ---- | -------- | ---------------------| ----------------------- | --------------------- | ------- |
 |Shruti|  Python  | Madlibs game         | Takes words from user and randomly puts it in a template |
