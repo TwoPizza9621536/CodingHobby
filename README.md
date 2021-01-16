@@ -13,11 +13,11 @@ You can also add new projects by checking out a branch and pull a request.
 
 ## Table of Contents
 
-[Code of Conduct](#code-of-conduct)
-[Contributing](#contributing)
-[Authors and acknowledgment](#authors-and-acknowledgment)
-[Maintainers](#maintainers)
-[License](#license)
+- [Code of Conduct](#code-of-conduct)
+- [Contributing](#contributing)
+- [Authors and acknowledgment](#authors-and-acknowledgment)
+- [Maintainers](#maintainers)
+- [License](#license)
 
 ## Code of Conduct
 
@@ -41,6 +41,12 @@ Read [CONTRIBUTORS.md](CONTRIBUTORS.md), the top main or original collaborators 
 Read the project's README for the packages used. Usually in the description or Dependencies section.
 
 ### Maintainers
+
+- [Utkarsh Agarwal](https://github.com/agarwalutkarsh554)
+
+- [Vardaan Raj Singh](https://github.com/vardaan-raj)
+
+- [Eric J](https://github.com/EricJB77)
 
 ## License
 
