@@ -1,6 +1,6 @@
 # Python
 
-Python projects for CPython IDEA in this sub-repository.in this sub-repository.
+Python projects for PyCharm IDEA in this sub-repository.
 Jupyter/IPython notebooks are also included as a submodule.
 
 ## Projects
