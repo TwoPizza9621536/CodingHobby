@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.html": "html",
-        "*.txt": "plaintext",
-        "string": "cpp"
-    }
-}

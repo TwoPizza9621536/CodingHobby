@@ -1,4 +1,8 @@
-# All gitignore is from github/gitignore 
+*
+!*.*
+!/**/
+
+# All gitignore is from github/gitignore
 # Creative Commons Zero v1.0 Universal
 
 # C & C

@@ -4,26 +4,18 @@ MS Visual Studio C++ Tutorial in C for GCC/MingW. The code will work in VS2017 a
 
 ## Building
 
-Use the build.sh to use GCC for building. Use build.ps1 on windows to build.
+Use make to build.
 
 ```bash
-./build.sh
-```
-
-```powershell
-powershell.exe build.ps1
+make
 ```
 
 ## Cleaning
 
-Use the same scripts to clean.
+Use make to clean.
 
 ```bash
-./build.sh --clean
-```
-
-```powershell
-powershell.exe build.ps1 --clean
+make clean
 ```
 
 ## Usage

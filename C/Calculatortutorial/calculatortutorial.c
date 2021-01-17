@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-double Calculator(double x, char oper, double y);
+#include "calculator.h"
 
 int main()
 {
@@ -26,22 +25,5 @@ int main()
             result = Calculator(x, oper, y);
         }
         printf("Result is: %lf\n", result);
-    }
-}
-
-double Calculator(double x, char oper, double y)
-{
-    switch (oper)
-    {
-    case '+':
-        return x + y;
-    case '-':
-        return x - y;
-    case '*':
-        return x * y;
-    case '/':
-        return x / y;
-    default:
-        return 0.0;
     }
 }

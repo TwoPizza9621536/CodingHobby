@@ -2,6 +2,7 @@
 #include <ostream>
 #include <string>
 #include <math.h>
+#include <stdexcept>
 
 double Calculate(double a, char oper, double b);
 
@@ -40,19 +41,19 @@ int main()
             {
                 std::cout << "This operation will result in a mathematical error." << std::endl << std::endl;
             }
-            else std::cout << "Your result: "<< result << std::endl << std::endl;
+            else std::cout << "Your result: " << result << std::endl << std::endl;
         }
-        catch (_exception e)
+        catch (std::runtime_error& e)
         {
-            std::cout << "Oh no! An exception occurred trying to do math." << std::endl << e.type << std::endl;
-            throw;
+            std::cout << "Oh no! An exception occurred trying to do math." << std::endl << e.what();
         }
 
-        std::cout << "Press 'n' and Enter to close the app or press any other "
-                     "key and Enter to continue: ";
+        std::cout << "Press 'n' and Enter to close the app or press any other key and Enter to continue: ";
         std::cin >> key;
         if (key == "n")
+        {
             endApp = 1;
+        }
 
         std::cout << std::endl;
     }
@@ -81,10 +82,17 @@ double Calculate(double a, char oper, double b)
             std::cin >> newb;
             b = std::stod(newb);
         }
-        if (b != 0) result = a / b;
-        break;
-    default:
+        if (b != 0)
+        {
+            result = a / b;
+        }
         break;
     }
+
+    if (result == -NAN)
+    {
+        throw std::runtime_error("An unknown error has occurred, use the CSharp version of this code.");
+    }
+
     return result;
 }
