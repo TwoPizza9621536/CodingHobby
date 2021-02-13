@@ -11,4 +11,4 @@ in the root of the repository for contributing.
 
 ## Notice
 
-Any projects that are *italicized* need to run `git submodule update --init --recursive`.
+Any projects that are _italicized_ need to run `git submodule update --init --recursive`.
