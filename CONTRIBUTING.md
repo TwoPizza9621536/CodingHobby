@@ -100,4 +100,3 @@ If you are a firsttimersonly, a beginner or novice, below are 'explain to me lik
 
 In order to contribute, you need tools; applications that help you write code and store code on a server or service like GitHub.
 Each section are the tools you will need and applications that will do the job.
-
