@@ -1,8 +1,10 @@
 
 import java.util.Scanner;
 
-public class Calaculator {
+import static java.lang.Double.parseDouble;
 
+
+public class Calculator {
 	public static void main(String[] args) {
 		boolean endApp = false;
 		while (!endApp) {
@@ -12,7 +14,7 @@ public class Calaculator {
 			double result = 0.0;
 			Scanner input = new Scanner(System.in);
 
-			System.out.println("Calaculator\nType in a number:");
+			System.out.println("Calculator\nType in a number:");
 			a = input.nextLine();
 
 			double cleana = tryParse(a);
@@ -20,18 +22,17 @@ public class Calaculator {
 			System.out.println("Type in a operator:");
 			oper = input.nextLine();
 
-			System.out.println("Type in a another number:");
+			System.out.println("Type in an another number:");
 			b = input.nextLine();
 
 			double cleanb = tryParse(b);
 
 			try {
 				result = Calculate(cleana, oper, cleanb);
-				if (Double.isNaN(result))
-				{
+				if (Double.isNaN(result)) {
 					System.out.println("This operation will result in a mathematical error.\n");
 				} else {
-				System.out.println(result);
+					System.out.println(result);
 				}
 			} catch (Exception e) {
 				System.out.println("Oh no! An exception occurred trying to do the math.\n - Details: " + e.getMessage());
@@ -48,8 +49,7 @@ public class Calaculator {
 
 	private static double Calculate(double cleana, String oper, double cleanb) {
 		double result = Double.NaN;
-		switch (oper)
-		{
+		switch (oper) {
 		case "+":
 			result = cleana + cleanb;
 			break;
@@ -62,33 +62,27 @@ public class Calaculator {
 		case "/":
 			Scanner nonzero = new Scanner(System.in);
 			while (cleanb == 0) {
-				System.out.println("Enter a non-zero divisor: ");
+				System.out.println();
 				cleanb = nonzero.nextInt();
 			}
 			nonzero.close();
-			if (cleanb != 0) result = cleana / cleanb;
+			if (cleanb != 0)
+				result = cleana / cleanb;
 		default:
 			break;
 		}
 		return result;
 	}
 
-	private static double tryParse(String a)
-	{
+	private static double tryParse(String a) {
 		double cleana = 0.0;
 		boolean endParse = false;
 		Scanner Parse = new Scanner(System.in);
-		
+
 		while (!endParse) {
-			try {
-				cleana = Double.parseDouble(a);
-				endParse = true;
-				break;
-			} catch (NumberFormatException e) {
-				System.out.println("\"This is not valid input. Please enter an integer value: \"");
-				a = Parse.nextLine();
+			if (parseDouble(a) != null) {
+
 			}
-			Parse.close();
 		}
 		return cleana;
 	}
