@@ -6,7 +6,7 @@ in Visual Studio with Vcpkg.
 
 ## Projects
 
--   Tetris
+- Tetris
 
 ## Notice
 
