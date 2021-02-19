@@ -12,7 +12,7 @@ namespace Password_Checker
 {
     public partial class Form1 : Form
     {
-        readonly string AOORE = "Enter Password Here";
+        readonly string DefaultText = "Enter Password Here";
 
         public Form1()
         {
@@ -28,122 +28,76 @@ namespace Password_Checker
             Password_two.SelectAll();
         }
 
-        private void Password_One_TextChanged(object sender, EventArgs e)
+        public void Display_Passwd(TextBox passwd, Label[] labels)
         {
             try
             {
-                if (Password_One.TextLength <= 0 || Password_One.Text == null)
+
+                if (passwd.TextLength <= 0 || passwd.Text == null)
                 {
-                    Zxcvbn.Core.EvaluatePassword(AOORE);
-                    Password_One.Text = AOORE;
-                    Password_One.SelectAll();
+                    Zxcvbn.Core.EvaluatePassword(DefaultText);
+                    passwd.Text = DefaultText;
+                    passwd.SelectAll();
                 }
 
-                var Passwd_One = Zxcvbn.Core.EvaluatePassword(Password_One.Text);
+                var Eval_Passwd = Zxcvbn.Core.EvaluatePassword(passwd.Text);
 
-                switch (Passwd_One.Score)
+                switch (Eval_Passwd.Score)
                 {
                     case 0:
-                        Result_one.Text = "Very Weak";
-                        Result_one.ForeColor = Color.Red;
+                        labels[0].Text = "Very Weak";
+                        labels[0].ForeColor = Color.Red;
                         Result_one.BackColor = Color.White;
                         break;
                     case 1:
-                        Result_one.Text = "Weak";
-                        Result_one.ForeColor = Color.Orange;
-                        Result_one.BackColor = Color.White;
+                        labels[0].Text = "Weak";
+                        labels[0].ForeColor = Color.Orange;
+                        labels[0].BackColor = Color.White;
                         break;
                     case 2:
-                        Result_one.Text = "Good";
-                        Result_one.ForeColor = Color.Yellow;
-                        Result_one.BackColor = Color.DarkKhaki;
+                        labels[0].Text = "Good";
+                        labels[0].ForeColor = Color.Yellow;
+                        labels[0].BackColor = Color.DarkKhaki;
                         break;
                     case 3:
-                        Result_one.Text = "Strong";
-                        Result_one.ForeColor = Color.Blue;
-                        Result_one.BackColor = Color.White;
+                        labels[0].Text = "Strong";
+                        labels[0].ForeColor = Color.Blue;
+                        labels[0].BackColor = Color.White;
                         break;
                     case 4:
-                        Result_one.Text = "Very Strong";
-                        Result_one.ForeColor = Color.Green;
-                        Result_one.BackColor = Color.White;
+                        labels[0].Text = "Very Strong";
+                        labels[0].ForeColor = Color.Green;
+                        labels[0].BackColor = Color.White;
                         break;
                 }
 
-                Guesses_one.Text = "Guesses: " + Passwd_One.Guesses.ToString();
-                Warning_one.Text = "Warning: " + Passwd_One.Feedback.Warning;
-                Suggestion_one.Text = "Suggestions: " + Passwd_One.Feedback.Suggestions[0];
-                Crack_Time_one.Text = "Crack Time: " + Passwd_One.CrackTimeDisplay.OnlineNoThrottling10PerSecond;
-                Compare_Passwd();
+                labels[1].Text = "Guesses: " + Eval_Passwd.Guesses.ToString();
+                labels[2].Text = "Warning: " + Eval_Passwd.Feedback.Warning;
+                labels[3].Text = "Suggestions: " + Eval_Passwd.Feedback.Suggestions[0];
+                labels[4].Text = "Crack Time: " + Eval_Passwd.CrackTimeDisplay.OnlineNoThrottling10PerSecond;
             }
-            finally
+            catch (Exception e)
             {
-                if (Password_One.TextLength <= 0 || Password_One.Text == null)
-                {
-                    Zxcvbn.Core.EvaluatePassword(AOORE);
-                    Password_One.Text = AOORE;
-                    Password_One.SelectAll();
-                }
+                throw e;
             }
+        }
+
+        private void Password_One_TextChanged(object sender, EventArgs e)
+        {
+            Label[] Labels_one = { Result_one, Guesses_one, Warning_one, Suggestion_one, Crack_Time_one };
+
+            Display_Passwd(Password_One, Labels_one);
+
+            Compare_Passwd();
         }
 
         private void Password_two_TextChanged(object sender, EventArgs e)
         {
-            try
-            {
-                if (Password_two.TextLength <= 0 || Password_two.Text == null)
-                {
-                    Zxcvbn.Core.EvaluatePassword(AOORE);
-                    Password_two.Text = AOORE;
-                    Password_two.SelectAll();
-                }
+            Label[] Labels_two = { Result_two, Guesses_two, Warning_two, Suggestion_two, Crack_Time_two };
 
-                var Passwd_two = Zxcvbn.Core.EvaluatePassword(Password_two.Text);
+            Display_Passwd(Password_two, Labels_two);
 
-                switch (Passwd_two.Score)
-                {
-                    case 0:
-                        Result_two.Text = "Very Weak";
-                        Result_two.ForeColor = Color.Red;
-                        Result_two.BackColor = Color.White;
-                        break;
-                    case 1:
-                        Result_two.Text = "Weak";
-                        Result_two.ForeColor = Color.Orange;
-                        Result_two.BackColor = Color.White;
-                        break;
-                    case 2:
-                        Result_two.Text = "Good";
-                        Result_two.ForeColor = Color.Yellow;
-                        Result_two.BackColor = Color.DarkKhaki;
-                        break;
-                    case 3:
-                        Result_two.Text = "Strong";
-                        Result_two.ForeColor = Color.Blue;
-                        Result_two.BackColor = Color.White;
-                        break;
-                    case 4:
-                        Result_two.Text = "Very Strong";
-                        Result_two.ForeColor = Color.Green;
-                        Result_two.BackColor = Color.White;
-                        break;
-                }
-
-                Guesses_two.Text = "Guesses: " + Passwd_two.Guesses.ToString();
-                Warning_two.Text = "Warning: " + Passwd_two.Feedback.Warning;
-                Suggestion_two.Text = "Suggestions: " + Passwd_two.Feedback.Suggestions[0];
-                Crack_Time_two.Text = "Crack Time: " + Passwd_two.CrackTimeDisplay.OnlineNoThrottling10PerSecond;
-                Compare_Passwd();
-            }
-            finally
-            {
-                if (Password_two.TextLength <= 0 || Password_two.Text == null)
-                {
-                    Zxcvbn.Core.EvaluatePassword(AOORE);
-                    Password_two.Text = AOORE;
-                    Password_two.SelectAll();
-                }
-            }
+            Compare_Passwd();
         }
 
         public void Compare_Passwd()
@@ -152,12 +106,9 @@ namespace Password_Checker
             var Passwd_two = Zxcvbn.Core.EvaluatePassword(Password_two.Text);
             if (Passwd_one.Score == Passwd_two.Score && Passwd_one.CrackTime.OnlineNoThrottling10PerSecond == Passwd_two.CrackTime.OnlineNoThrottling10PerSecond)
             {
-                Comp_one.Text = "Same";
-                Comp_one.ForeColor = Color.Yellow;
-                Comp_one.BackColor = Color.DarkKhaki;
-                Comp_two.Text = "Same";
-                Comp_two.ForeColor = Color.Yellow;
-                Comp_two.BackColor = Color.DarkKhaki;
+                Comp_one.Text = Comp_two.Text = "Same";
+                Comp_one.ForeColor = Comp_two.ForeColor = Color.Yellow;
+                Comp_one.BackColor = Comp_two.BackColor = Color.DarkKhaki;
             }
             else if (Passwd_one.Score >= Passwd_two.Score && Passwd_one.CrackTime.OnlineNoThrottling10PerSecond >= Passwd_two.CrackTime.OnlineNoThrottling10PerSecond)
             {

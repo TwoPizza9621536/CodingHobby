@@ -56,7 +56,6 @@ namespace Calculator
                 if (Console.ReadLine() == "n") endApp = true;
 
                 Console.WriteLine("\n");
-
             }
         }
 
