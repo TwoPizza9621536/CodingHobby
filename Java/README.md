@@ -1,7 +1,7 @@
 # Java
 
-Java projects for Eclipse in this sub-repository. See the [CONTRIBUTING.md](../CONTRIBUTING.md) the
-in root of the repository for contributing.
+Java projects for Eclipse and Intellj IDEA this sub-repository. See the [CONTRIBUTING.md](../CONTRIBUTING.md)
+in the root of the repository for contributing.
 
 ## Projects
 
@@ -11,4 +11,4 @@ in root of the repository for contributing.
 
 ## Notice
 
-Any projects that are *italicized* need to run `git submodule update --init --recursive`.
+Any projects that are _italicized_ need to run `git submodule update --init --recursive`.
