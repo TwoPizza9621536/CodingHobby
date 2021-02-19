@@ -1,31 +1,21 @@
 # Calculatortutorial
 
----
-
 MS Visual Studio C++ Tutorial for GCC/MingW. The code will work in VS2017 and later.
 
 ## Building
 
-Use the build.sh to use GCC for building. Use build.ps1 on windows to build.
+Use make to build.
 
 ```bash
-./build.sh
-```
-
-```powershell
-powershell.exe build.ps1
+make
 ```
 
 ## Cleaning
 
-Use the same scripts to clean.
+Use make to clean.
 
 ```bash
-./build.sh --clean
-```
-
-```powershell
-powershell.exe build.ps1 --clean
+make
 ```
 
 ## Usage
@@ -44,9 +34,9 @@ Press Ctrl-C to exit.
 
 ## Contributing
 
-Read the Contributing section in README.md at the root of the repository.
+Read the Contributing section in [README.md](../../README.md) at the root of the repository.
 
 ## License
 
-See LICENSE at the root of the repository. Additional licenses is in the project LICENSE.
+See [LICENSE](../../LICENSE) at the root of the repository. Additional licenses is in the project [LICENSE](./LICENSE).
 The first part of the project license is here if applicable.

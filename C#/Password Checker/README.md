@@ -1,8 +1,10 @@
 # Password Checker
 
----
-
 Check if the password is strong enough to be used and compare passwords offline. Using the [Zacvbn](https://github.com/dropbox/zxcvbn) library for C# from [trichards57](https://github.com/trichards57/zxcvbn-cs). This project is using Windows Forms.
+
+## Dependencies
+
+- [Zacvbn C#/.NET](https://github.com/trichards57/zxcvbn-cs)
 
 ## Building
 
@@ -19,7 +21,7 @@ Read the Contributing section in README.md at the root of the repository.
 
 ## License
 
-See LICENSE at the root of the repository. Additional licenses is in the project LICENSE.
+See [LICENSE](../../LICENSE) at the root of the repository. Additional licenses is in the project [LICENSE](./LICENSE).
 The first part of the project license is here if applicable.
 
 Zxcvbn

@@ -1,4 +1,8 @@
-# All gitignore is from github/gitignore 
+*
+!*.*
+!/**/
+
+# All gitignore is from github/gitignore
 # Creative Commons Zero v1.0 Universal
 
 # C & C
@@ -964,4 +968,7 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
 Kotlin/Calculator/.idea/workspace.xml
+
+nppBackup/

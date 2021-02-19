@@ -1,18 +1,6 @@
 # CSharp
 
----
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [CSharp](#csharp)
-  - [Projects](#projects)
-  - [Notice](#notice)
-
-<!-- /code_chunk_output -->
-
-C# projects for DotNet and Visual Studio 2017 and 2019 in this sub-repository. See the Contributing.md the in root of the repository for contributing.
+C# projects for DotNet and Visual Studio 2017 and 2019 in this sub-repository. See the [CONTRIBUTING.md](../CONTRIBUTING.md) the in root of the repository for contributing.
 
 ## Projects
 

@@ -1,7 +1,5 @@
 # DotNetDependencies
 
----
-
 MS DotNetDependencies tutorial. More at docs.microsoft.com/learn
 
 ## Usage
@@ -10,17 +8,21 @@ MS DotNetDependencies tutorial. More at docs.microsoft.com/learn
 dotnet run
 ```
 
-Use an editor to view the code. Use Visual Studio Code for a better experience. Open this folder for a better folder structure in your preferred editor.
+Use an editor to view the code. Use Visual Studio Code for a better experience.
+Open this folder for a better folder structure in your preferred editor.
 
 ## Contributing
 
-Read the Contributing section in README.md at the root of the repository.
+Read the Contributing section in [README.md](../../README.md) at the root of the
+repository.
 
 ## License
 
-See LICENSE at the root of the repository. Additional licenses is in the project LICENSE.
+See [LICENSE](../../LICENSE) at the root of the repository. Additional licenses
+is in the project [LICENSE](./LICENSE).
 The first part of the project license is here if applicable.
 
+```markdown
 The MIT License (MIT)
 
 Copyright (c) .NET Foundation and Contributors
@@ -42,3 +44,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+```
+

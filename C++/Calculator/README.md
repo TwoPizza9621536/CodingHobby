@@ -1,31 +1,21 @@
 # Calculator
 
----
-
 A calculator console app from C# tutorial for Visual Studio in C++ for GCC.
 
 ## Building
 
-Use the build.sh to use GCC for building. Use build.ps1 on windows to build.
+Type make to build the files.
 
 ```bash
-./build.sh
-```
-
-```powershell
-powershell.exe build.ps1
+make
 ```
 
 ## Cleaning
 
-Use the same scripts to clean.
+Use make same scripts to clean.
 
 ```bash
-./build.sh --clean
-```
-
-```powershell
-powershell.exe build.ps1 --clean
+make clean
 ```
 
 ## Usage
@@ -40,13 +30,13 @@ Run the app in the terminal.
 calculator
 ```
 
-Press Ctrl-C to exit`
+Press Ctrl-C to exit
 
 ## Contributing
 
-Read the Contributing section in README.md at the root of the repository.
+Read the Contributing section in [README.md](../../README.md)} at the root of the repository.
 
 ## License
 
-See LICENSE at the root of the repository. Additional licenses is in the project LICENSE.
+See [LICENSE](../../LICENSE) at the root of the repository. Additional licenses is in the project [LICENSE](./LICENSE).
 The first part of the project license is here if applicable.
