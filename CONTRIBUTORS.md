@@ -6,8 +6,8 @@ The people who help others to learn and keep this repository going.
 
 - Sam W twopizza9621536@gmail.com Original Creator
 
-
 ## Maintainers
+
 - Utkarsh Agarwal agarwalutkarsh554@gmail.com Maintainer
 
 - Vardaan Raj Singh Maintainer
@@ -22,7 +22,8 @@ Add yourself in this format:
 | Name | Language | Project | Lines/Features | Notes & Contributions | License |
 ```
 
-| Name | Language |       Project        |      Lines/Features     | Notes & Contributions | License |
-| ---- | -------- | ---------------------| ----------------------- | --------------------- | ------- |
-|Shruti|  Python  | Number Guessing game | generates random number |
-|Shruti|  Python  | Madlibs game         | Takes words from user and randomly puts it in a template |
+| Name      | Language | Project              | Lines/Features                                           | Notes & Contributions                                                       | License |
+| --------- | -------- | -------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------- | ------- |
+| FamTrinli | C++      | 16_Games_Win/Linux   | Made 16 Games using SFML                                 | Sources are here <https://www.youtube.com/channel/UCC7qpnId5RIQruKDJOt2exw> |
+| Shruti    | Python   | Number Guessing game | generates random number                                  |
+| Shruti    | Python   | Madlibs game         | Takes words from user and randomly puts it in a template |
