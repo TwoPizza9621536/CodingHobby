@@ -22,8 +22,8 @@ Add yourself in this format:
 | Name | Language | Project | Lines/Features | Notes & Contributions | License |
 ```
 
-| Name      | Language | Project              | Lines/Features                                           | Notes & Contributions                                                       | License |
-| --------- | -------- | -------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------- | ------- |
+| Name      | Language | Project              | Lines/Features                                           | Notes & Contributions                                                       |
+| --------- | -------- | -------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------- |
 | FamTrinli | C++      | 16_Games_Win/Linux   | Made 16 Games using SFML                                 | Sources are here <https://www.youtube.com/channel/UCC7qpnId5RIQruKDJOt2exw> |
 | Shruti    | Python   | Number Guessing game | generates random number                                  |
 | Shruti    | Python   | Madlibs game         | Takes words from user and randomly puts it in a template |
