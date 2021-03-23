@@ -1,0 +1,10 @@
+{
+    "gitdoc.enabled": false,
+    "files.associations": {
+        "*.rmd": "markdown",
+        "*.txt": "plaintext",
+        "CMakeLists.txt": "cmake",
+        "*.c": "c",
+        "glfw3.h": "c"
+    }
+}
