@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: Copyright (c) 2021 Sam W
+# SPDX-FileCopyrightText: Copyright (c) 2021 Shruti Solani
+#
+# SPDX-License-Identifier: MIT
+
 import random
 print("Title : Eat, Drink, And Be Sick")
 
