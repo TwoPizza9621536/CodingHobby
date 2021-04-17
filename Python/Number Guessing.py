@@ -1,6 +1,11 @@
-#This is a number guessing game. User has to guess the number between 1 to 10. 
-#User gets 4 chances to guess the number.
-#random module is used to generate random number.
+# SPDX-FileCopyrightText: Copyright (c) 2021 Sam W
+# SPDX-FileCopyrightText: Copyright (c) 2021 Shruti Solani
+#
+# SPDX-License-Identifier: MIT
+
+# This is a number guessing game. User has to guess the number between 1 to 10.
+# User gets 4 chances to guess the number.
+# random module is used to generate random number.
 
 import random
 import time
