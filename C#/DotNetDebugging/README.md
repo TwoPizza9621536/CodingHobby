@@ -13,6 +13,7 @@ Use an editor to view the code. Use Visual Studio Code for editing and debugging
 ## Contributing
 
 Read the Contributing section in [README.md](../../README.md) at the root of the repository.
+
 ## License
 
 See [LICENSE](../../LICENSE) at the root of the repository. Additional licenses is in the project [LICENSE](./LICENSE).

@@ -2,17 +2,16 @@
 
 Assembly projects for DOS and Windows using NASM and MASM assemblers
 
-
 ## PROJECTS
 
--  DOS
+- DOS
 
-  - Hello World
+- Hello World
 
--  Windows
+- Windows
 
-  - Hello World
+- Hello World
 
 ## NOTICE
 
-Any projects that are *italicized* need to run `git submodule update --init --recursive`
+Any projects that are _italicized_ need to run `git submodule update --init --recursive`
