@@ -1,23 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Password_Checker
 {
     public partial class Form1 : Form
     {
-        readonly string DefaultText = "Enter Password Here";
+        private readonly string DefaultText = "Enter Password Here";
 
         public Form1()
         {
             InitializeComponent();
         }
+
         private void Password_One_Click(object sender, EventArgs e)
         {
             Password_One.SelectAll();
@@ -32,7 +27,6 @@ namespace Password_Checker
         {
             try
             {
-
                 if (passwd.TextLength <= 0 || passwd.Text == null)
                 {
                     Zxcvbn.Core.EvaluatePassword(DefaultText);
@@ -47,27 +41,26 @@ namespace Password_Checker
                     case 0:
                         labels[0].Text = "Very Weak";
                         labels[0].ForeColor = Color.Red;
-                        Result_one.BackColor = Color.White;
                         break;
+
                     case 1:
                         labels[0].Text = "Weak";
                         labels[0].ForeColor = Color.Orange;
-                        labels[0].BackColor = Color.White;
                         break;
+
                     case 2:
                         labels[0].Text = "Good";
                         labels[0].ForeColor = Color.Yellow;
-                        labels[0].BackColor = Color.DarkKhaki;
                         break;
+
                     case 3:
                         labels[0].Text = "Strong";
                         labels[0].ForeColor = Color.Blue;
-                        labels[0].BackColor = Color.White;
                         break;
+
                     case 4:
                         labels[0].Text = "Very Strong";
                         labels[0].ForeColor = Color.Green;
-                        labels[0].BackColor = Color.White;
                         break;
                 }
 
@@ -108,25 +101,20 @@ namespace Password_Checker
             {
                 Comp_one.Text = Comp_two.Text = "Same";
                 Comp_one.ForeColor = Comp_two.ForeColor = Color.Yellow;
-                Comp_one.BackColor = Comp_two.BackColor = Color.DarkKhaki;
             }
             else if (Passwd_one.Score >= Passwd_two.Score && Passwd_one.CrackTime.OnlineNoThrottling10PerSecond >= Passwd_two.CrackTime.OnlineNoThrottling10PerSecond)
             {
                 Comp_one.Text = "Stronger";
                 Comp_one.ForeColor = Color.Green;
-                Comp_one.BackColor = Color.White;
                 Comp_two.Text = "Weaker";
                 Comp_two.ForeColor = Color.Red;
-                Comp_two.BackColor = Color.White;
             }
             else if (Passwd_one.Score <= Passwd_two.Score && Passwd_one.CrackTime.OnlineNoThrottling10PerSecond <= Passwd_two.CrackTime.OnlineNoThrottling10PerSecond)
             {
                 Comp_one.Text = "Weaker";
                 Comp_one.ForeColor = Color.Red;
-                Comp_one.BackColor = Color.White;
                 Comp_two.Text = "Stronger";
                 Comp_two.ForeColor = Color.Green;
-                Comp_two.BackColor = Color.White;
             }
         }
     }
