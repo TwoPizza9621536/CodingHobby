@@ -28,7 +28,7 @@ while count != 0:
     if a == x:
         print("You are right, correct number is ", x)
         print("Congratulations! You won")
-        break
+        quit()
 
     #if guessed number is greater
     elif a > x:
